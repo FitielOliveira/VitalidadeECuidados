@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(243, 211, 206);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 100px;
+    border-radius: 50%;
+
+}
+
+.profile-name{
+    text-align: center;
+    padding: 30px;
+    font-size: 2rem;
+    
+}
+
+p{
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-width: 2px;
+    padding: 20px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: 1rem;
+
+}
+
+.produtos a{
+    text-decoration: none;
+    color: black;
+    transition: color 1s;
+}
+
+.produtos a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* footer */
+
+
+footer{
+    padding: 60px;
+
+}
+
+footer h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+.footer-sociais{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    color: aqua;
+}
+
+.footer-sociais li i{
+    padding: 40px;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.footer-sociais a{
+    color: rgb(243, 211, 206);    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
